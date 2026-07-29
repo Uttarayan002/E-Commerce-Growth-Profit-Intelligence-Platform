@@ -21,6 +21,21 @@ The executive leadership team has identified several concerning trends:
 The business requires an analytical solution to answer:
 What is driving business performance, where are the hidden inefficiencies, and what actions should leadership prioritize to improve profitability and customer retention?
 
+# Business Objectives
+
+This project aims to:
+
+- Analyze sales, customers, products, and operational performance.
+- Design meaningful business KPIs for executive reporting.
+- Discover revenue and profitability drivers.
+- Understand customer purchasing behavior.
+- Evaluate marketing effectiveness.
+- Identify operational bottlenecks.
+- Recommend strategic actions supported by data.
+- Develop predictive models that assist future decision-making.
+
+# Stakeholders
+
 # Business Questions
 ### Revenue Analytics
 - Which products generate the highest revenue?
@@ -46,20 +61,44 @@ What is driving business performance, where are the hidden inefficiencies, and w
 <img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/dde6c821-b399-4c2e-af41-2886f4fa9cbe" />
 
 
+# Business Data Model
+The project uses a relational data model that simulates an e-commerce business. 
+The dataset is organized into multiple interconnected tables representing customers, 
+orders, products, marketing, payments, suppliers, and returns. This structure enables 
+end-to-end business analysis across sales, customer behavior, profitability, operations, 
+and marketing performance.
 
-# Project Objectives
+### Entity Relationship Diagram
+<img width="1146" height="768" alt="Gemini_Generated_Image_5mysej5mysej5mys" src="https://github.com/user-attachments/assets/2c63bc5b-6dbc-4b5d-b120-267d901a2e0a" />
 
-This project aims to:
+### Core Tables 
+| Table       | Description                                             |
+| ----------- | ------------------------------------------------------- |
+| Customers   | Stores demographic and customer profile information.    |
+| Orders      | Stores order-level transaction details.                 |
+| Order Items | Stores individual products purchased within each order. |
+| Products    | Contains product catalog and pricing information.       |
+| Returns     | Stores returned products and refund details.            |
+| Marketing   | Stores customer acquisition channels and campaigns.     |
+| Payments    | Stores payment method and transaction status.           |
+| Suppliers   | Stores supplier information for inventory analysis.     |
 
-- Analyze sales, customers, products, and operational performance.
-- Design meaningful business KPIs for executive reporting.
-- Discover revenue and profitability drivers.
-- Understand customer purchasing behavior.
-- Evaluate marketing effectiveness.
-- Identify operational bottlenecks.
-- Recommend strategic actions supported by data.
-- Develop predictive models that assist future decision-making.
 
+
+# Tech Stack
+
+| Technology | Use Case |
+|------------|----------|
+| **Python** | General-purpose programming, scripting, automation |
+| **SQL** | Data querying, database management |
+| **Pandas** | Data manipulation, cleaning, transformation |
+| **NumPy** | Numerical computing, array operations |
+| **Matplotlib** | Static, animated, and interactive visualizations |
+| **Plotly** | Interactive dashboards and web-based charts |
+| **Scikit-learn** | Machine learning models, preprocessing, evaluation |
+| **Power BI** | Business intelligence, dashboards, reporting |
+| **PostgreSQL** | Relational database management, complex queries |
+| **Git & GitHub** | Version control, collaboration, CI/CD |
 
 # Key Performance Indicators (KPIs)
 ## Executive KPIs
@@ -84,17 +123,21 @@ This project aims to:
 - Return on Marketing Investment (ROMI)
 
 
-# Tech Stack
+# Project Architecture
+<img width="1408" height="618" alt="Gemini_Generated_Image_u86zw4u86zw4u86z" src="https://github.com/user-attachments/assets/6ff0afc0-b68a-4b73-b32c-b95eb2413d25" />
 
-| Technology | Use Case |
-|------------|----------|
-| **Python** | General-purpose programming, scripting, automation |
-| **SQL** | Data querying, database management |
-| **Pandas** | Data manipulation, cleaning, transformation |
-| **NumPy** | Numerical computing, array operations |
-| **Matplotlib** | Static, animated, and interactive visualizations |
-| **Plotly** | Interactive dashboards and web-based charts |
-| **Scikit-learn** | Machine learning models, preprocessing, evaluation |
-| **Power BI** | Business intelligence, dashboards, reporting |
-| **PostgreSQL** | Relational database management, complex queries |
-| **Git & GitHub** | Version control, collaboration, CI/CD |
+
+# Analysis Performed
+
+# Dashboard Preview
+
+# Business Insights
+
+# Executive Recommendations
+
+# Predictive Analytics
+
+
+# Future Improvements
+
+# Conclusion
