@@ -36,6 +36,17 @@ This project aims to:
 
 # Stakeholders
 
+| Stakeholder        | Business Goal                                      | Key Questions                                                                       |
+| ------------------ | -------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| CEO                | Increase profitability and sustainable growth      | Are we growing profitably? Which areas need immediate attention?                    |
+| Marketing Manager  | Improve customer acquisition and campaign ROI      | Which marketing channels bring the highest-value customers?                         |
+| Sales Manager      | Increase revenue and average order value           | Which products and categories drive sales?                                          |
+| Operations Manager | Improve delivery efficiency and reduce returns     | Which products or regions have the highest return rates?                            |
+| Product Manager    | Improve customer retention and shopping experience | Which customer segments are most engaged? What products encourage repeat purchases? |
+| Finance Manager    | Monitor profitability and costs                    | Which products or discounts reduce overall profit margins?                          |
+
+
+
 # Business Questions
 ### Revenue Analytics
 - Which products generate the highest revenue?
